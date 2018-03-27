@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Stress Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Survey</h2>
+      </div>
+      <form>
+        <div class="form-group">
+
+          <p>In the past year I have displayed the following physical symptoms of stress</p>
+          <input type="checkbox" name="symptoms" value="1"> Low energy<br>
+          <input type="checkbox" name="symptoms" value="1"> Upset stomach, including diarrhea, constipation, and nausea<br>
+          <input type="checkbox" name="symptoms" value="1"> Aches, pains, and tense muscles Low energy<br>
+          <input type="checkbox" name="symptoms" value="1"> Chest pain and rapid heartbeat<br>
+          <input type="checkbox" name="symptoms" value="1"> Insomnia<br>
+          <input type="checkbox" name="symptoms" value="1"> Frequent colds and infections<br>
+          <input type="checkbox" name="symptoms" value="1"> Loss of sexual desire and/or ability<br>
+          <input type="checkbox" name="symptoms" value="1"> Nervousness and shaking, ringing in the ear<br>
+          <input type="checkbox" name="symptoms" value="1"> Cold or sweaty hands and feet<br>
+          <input type="checkbox" name="symptoms" value="1"> Excess sweating<br>
+          <input type="checkbox" name="symptoms" value="1"> Dry mouth and difficulty<br>
+          <input type="checkbox" name="symptoms" value="1"> Clenched jaw and grinding teeth<br>
+
+          <p>In the past year I have displayed the following cognitive symptoms of stress</p>
+          <input type="checkbox" name="symptoms" value="1"> Constant Worrying<br>
+          <input type="checkbox" name="symptoms" value="1"> Racing thoughts<br>
+          <input type="checkbox" name="symptoms" value="1"> Forgetfulness and disorganized<br>
+          <input type="checkbox" name="symptoms" value="1"> Inability to Focus<br>
+          <input type="checkbox" name="symptoms" value="1"> Poor Judgement<br>
+          <input type="checkbox" name="symptoms" value="1"> Being pessimistic or seeing only the negative side<br>
+
+
+
+
+          <p>I do the following to alleviate stress:</p>
+          <input type="checkbox" name="treatments" value="1"> Exercise<br>
+          <input type="checkbox" name="treatments" value="1"> Muscle relaxation<br>
+          <input type="checkbox" name="treatments" value="1"> Deep breathing<br>
+          <input type="checkbox" name="treatments" value="1"> Eat well<br>
+          <input type="checkbox" name="treatments" value="1"> Take breaks<br>
+          <input type="checkbox" name="treatments" value="1"> Make time for hobbies<br>
+          <input type="checkbox" name="treatments" value="1"> Avoid stressful situations<br>
+
+        </div>
+        <input type="submit" class="btn-primary">
+      </form>
+      <br>
+      <div class="card">
+        <div class="card-body">
+          <h2>Results</h2>
+          <p id="result"></p>
+        </div
+      </div>
+
+  </body>
+</html>
